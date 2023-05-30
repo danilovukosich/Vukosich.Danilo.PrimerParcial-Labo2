@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPasajero xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pasajero>
+    <Apellido>Vukosic</Apellido>
+    <Nombre>Danilo</Nombre>
+    <Dni>43034978</Dni>
+    <Edad>21</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Auditore</Apellido>
+    <Nombre>Elias</Nombre>
+    <Dni>43875305</Dni>
+    <Edad>23</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Silvera</Apellido>
+    <Nombre>Nicolas</Nombre>
+    <Dni>40083951</Dni>
+    <Edad>33</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>DeRivia</Apellido>
+    <Nombre>Geralt</Nombre>
+    <Dni>37459621</Dni>
+    <Edad>50</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Kamado</Apellido>
+    <Nombre>Mario</Nombre>
+    <Dni>41534284</Dni>
+    <Edad>22</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Bombon</Apellido>
+    <Nombre>Alex</Nombre>
+    <Dni>4732901</Dni>
+    <Edad>18</Edad>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Premium</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>42</PesoEquipaje>
+    <NumeroDeVuelos>1</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>DecimoMeridio</Apellido>
+    <Nombre>Maximo</Nombre>
+    <Dni>34052184</Dni>
+    <Edad>70</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Wick</Apellido>
+    <Nombre>John</Nombre>
+    <Dni>31495036</Dni>
+    <Edad>42</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Mendez</Apellido>
+    <Nombre>Claudio</Nombre>
+    <Dni>39540361</Dni>
+    <Edad>50</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Guardiola</Apellido>
+    <Nombre>Pep</Nombre>
+    <Dni>39045731</Dni>
+    <Edad>47</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Hiuga</Apellido>
+    <Nombre>Neji</Nombre>
+    <Dni>44853204</Dni>
+    <Edad>20</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+</ArrayOfPasajero>

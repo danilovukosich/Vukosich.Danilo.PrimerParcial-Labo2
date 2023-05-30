@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVuelo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vuelo>
+    <CodigoDeVuelo>450666</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Roma</Destino>
+    <FechaVuelo>2023-05-30T00:00:00</FechaVuelo>
+    <CatidadAsientosPremium>99</CatidadAsientosPremium>
+    <CantidadAsientosTurista>300</CantidadAsientosTurista>
+    <PrecioPremium>1485</PrecioPremium>
+    <PrecioTurista>1100</PrecioTurista>
+    <DuracionVuelo>11</DuracionVuelo>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>Bombon</Apellido>
+        <Nombre>Alex</Nombre>
+        <Dni>4732901</Dni>
+        <Edad>18</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Premium</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>42</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>42</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-29T18:00:00</HorarioSalida>
+    <GananciaTotal>1485</GananciaTotal>
+    <CabotajeInternacional>Internacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>017191</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>SantaRosa</Destino>
+    <FechaVuelo>2023-06-26T00:00:00</FechaVuelo>
+    <CatidadAsientosPremium>70</CatidadAsientosPremium>
+    <CantidadAsientosTurista>220</CantidadAsientosTurista>
+    <PrecioPremium>135</PrecioPremium>
+    <PrecioTurista>100</PrecioTurista>
+    <DuracionVuelo>2</DuracionVuelo>
+    <ListaPasajeros />
+    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-29T13:22:00</HorarioSalida>
+    <GananciaTotal>0</GananciaTotal>
+    <CabotajeInternacional>Nacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>879448</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Recife</Destino>
+    <FechaVuelo>2023-06-15T00:00:00</FechaVuelo>
+    <CatidadAsientosPremium>120</CatidadAsientosPremium>
+    <CantidadAsientosTurista>230</CantidadAsientosTurista>
+    <PrecioPremium>1485</PrecioPremium>
+    <PrecioTurista>1100</PrecioTurista>
+    <DuracionVuelo>11</DuracionVuelo>
+    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-29T21:00:00</HorarioSalida>
+    <GananciaTotal>0</GananciaTotal>
+    <CabotajeInternacional>Internacional</CabotajeInternacional>
+  </Vuelo>
+</ArrayOfVuelo>
