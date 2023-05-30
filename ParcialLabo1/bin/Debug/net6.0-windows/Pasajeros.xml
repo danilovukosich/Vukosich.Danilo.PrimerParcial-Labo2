@@ -5,60 +5,60 @@
     <Nombre>Danilo</Nombre>
     <Dni>43034978</Dni>
     <Edad>21</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Premium</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>28</PesoEquipaje>
+    <NumeroDeVuelos>2</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Auditore</Apellido>
     <Nombre>Elias</Nombre>
     <Dni>43875305</Dni>
     <Edad>23</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Premium</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>42</PesoEquipaje>
+    <NumeroDeVuelos>2</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Silvera</Apellido>
     <Nombre>Nicolas</Nombre>
     <Dni>40083951</Dni>
     <Edad>33</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>No</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Turista</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>17</PesoEquipaje>
+    <NumeroDeVuelos>1</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>DeRivia</Apellido>
     <Nombre>Geralt</Nombre>
     <Dni>37459621</Dni>
     <Edad>50</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Turista</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>21</PesoEquipaje>
+    <NumeroDeVuelos>1</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Kamado</Apellido>
     <Nombre>Mario</Nombre>
     <Dni>41534284</Dni>
     <Edad>22</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Premium</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>23</PesoEquipaje>
+    <NumeroDeVuelos>4</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Bombon</Apellido>
@@ -125,6 +125,30 @@
     <Nombre>Neji</Nombre>
     <Dni>44853204</Dni>
     <Edad>20</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Horrolds</Apellido>
+    <Nombre>Newen</Nombre>
+    <Dni>15098123</Dni>
+    <Edad>72</Edad>
+    <EqupajeMano>Sin equipaje</EqupajeMano>
+    <EquipajeBodega>Sin equipaje</EquipajeBodega>
+    <Clase>Sin clase</Clase>
+    <Estado>Sin estado</Estado>
+    <PesoEquipaje>0</PesoEquipaje>
+    <NumeroDeVuelos>0</NumeroDeVuelos>
+  </Pasajero>
+  <Pasajero>
+    <Apellido>Ramirez</Apellido>
+    <Nombre>Helga</Nombre>
+    <Dni>32879435</Dni>
+    <Edad>65</Edad>
     <EqupajeMano>Sin equipaje</EqupajeMano>
     <EquipajeBodega>Sin equipaje</EquipajeBodega>
     <Clase>Sin clase</Clase>

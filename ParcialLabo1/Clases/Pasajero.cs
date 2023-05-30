@@ -83,5 +83,21 @@ namespace ParcialLabo1.Clases
             get { return nuemeroDeVuelos; }
             set { nuemeroDeVuelos = value; }
         }
+
+        public static bool operator ==(Pasajero p1, Pasajero p2)
+        {
+
+            if (!(p1 is null || p2 is null))
+            {
+                return p1.Dni == p2.Dni;
+            }
+            return false;
+
+        }
+
+        public static bool operator !=(Pasajero p1, Pasajero p2)
+        {
+            return !(p1 == p2);
+        }
     }
 }

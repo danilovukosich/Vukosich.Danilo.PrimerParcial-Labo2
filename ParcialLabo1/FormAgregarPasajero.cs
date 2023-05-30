@@ -71,11 +71,22 @@ namespace ParcialLabo1
             pasajeroNuevo.Clase = "Sin clase";
             pasajeroNuevo.NumeroDeVuelos = 0;
 
-            listaPasajeros.Add(pasajeroNuevo);
+           
+            if(pasajeroNuevo.Nombre!="" && pasajeroNuevo.Apellido!="" &&pasajeroNuevo.Edad!=0 && pasajeroNuevo.Dni!="")
+            {
+                listaPasajeros.Add(pasajeroNuevo);
+                SerializacionXml.SerializarObjetoXml<List<Pasajero>>(rutaArchivoPasajeros, listaPasajeros);
+                MessageBox.Show("Agregado Exitosamente!");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Debe completar todos los campos");
+            }
 
-            SerializacionXml.SerializarObjetoXml<List<Pasajero>>(rutaArchivoPasajeros, listaPasajeros);
+            
 
-            Close();
+            
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)

@@ -98,6 +98,22 @@ namespace ParcialLabo1.Clases
             set { this.estado = value; }
         }
 
+        public static bool operator ==(Aeronave p1, Aeronave p2)
+        {
+
+            if (!(p1 is null || p2 is null))
+            {
+                return p1.Matricula == p2.Matricula;
+            }
+            return false;
+
+        }
+
+        public static bool operator !=(Aeronave p1, Aeronave p2)
+        {
+            return !(p1 == p2);
+        }
+
         public static string GenerarMatricula()
         {
             string letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParcialLabo1.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,15 @@ namespace ParcialLabo1
 {
     public partial class FormBienvenida : Form
     {
+
         public FormBienvenida()
         {
             InitializeComponent();
+
+
         }
+
+
 
         private void label6_Click(object sender, EventArgs e)
         {
@@ -50,6 +56,7 @@ namespace ParcialLabo1
 
         private void FormBienvenida_Load(object sender, EventArgs e)
         {
+
             this.Opacity = 0.0;
 
             timerFadeIn.Start();

@@ -35,6 +35,7 @@ namespace ParcialLabo1
             //fecha
             dateTimePickerFechaVuelo.Format = DateTimePickerFormat.Custom;
             dateTimePickerFechaVuelo.CustomFormat = "dd/MM/yyyy";
+            dateTimePickerFechaVuelo.MinDate = DateTime.Now;
             //hora
             dateTimePickerHorarioSalida.Format = DateTimePickerFormat.Time;
             dateTimePickerHorarioSalida.ShowUpDown = true;
@@ -51,18 +52,18 @@ namespace ParcialLabo1
             listaVuelos = SerializacionXml.DeserializarObjetoXml<List<Vuelo>>(rutaArchivoVuelos);
 
 
-            for (int i = 0; i < listaAeronaves.Count; i++)
-            {
-                //if (listaAeronaves[i].Estado.ToLower() == "sin vuelo")
-                //{
-                opcionesAeronaves[i] = listaAeronaves[i].Matricula;
+            //for (int i = 0; i < listaAeronaves.Count; i++)
+            //{
+            //    //if (listaAeronaves[i].Estado.ToLower() == "sin vuelo")
+            //    //{
+            //    opcionesAeronaves[i] = listaAeronaves[i].Matricula;
 
-                //}
+            //    //}
 
 
-            }
+            //}
 
-            comboBoxAeronaveDelVuelo.DataSource = opcionesAeronaves;
+            //comboBoxAeronaveDelVuelo.DataSource = opcionesAeronaves;
 
             dataGridViewAeronaves.Rows.Clear();
 
@@ -109,7 +110,7 @@ namespace ParcialLabo1
             Aeronave aeronaveAux = new Aeronave();
 
             //ASIGANR EL VUELO CREAFDO A LA AERONAVE SELECCIONADA PARA ESTE
-            aeronaveAux = Aeronave.BuscarAeronavePorMatricula(listaAeronaves, comboBoxAeronaveDelVuelo.Text);
+            aeronaveAux = Aeronave.BuscarAeronavePorMatricula(listaAeronaves, textBoxMatriculaPasajero.Text);
 
             nuevoVuelo.CodigoDeVuelo = Vuelo.GenerarCodigoVuelo();
             //nuevoVuelo.Aeronave = aeronaveAux;//genera circular reference was detected while serializing an object!
@@ -139,22 +140,37 @@ namespace ParcialLabo1
 
             //nuevoVuelo.ListaPasajeros = new List<Pasajero>();//en venta
 
-            int indexAeronave = listaAeronaves.FindIndex(i => i.Matricula == comboBoxAeronaveDelVuelo.Text);
-            listaAeronaves[indexAeronave].HorasDeVuelo += nuevoVuelo.DuracionVuelo;
-            listaAeronaves[indexAeronave].VueloAsignado = nuevoVuelo;
-            listaAeronaves[indexAeronave].Estado = "Vuelo Asignado";
+            int indexAeronave = listaAeronaves.FindIndex(i => i.Matricula == textBoxMatriculaPasajero.Text);
+            if (indexAeronave != -1)
+            {
+                listaAeronaves[indexAeronave].HorasDeVuelo += nuevoVuelo.DuracionVuelo;
+                listaAeronaves[indexAeronave].VueloAsignado = nuevoVuelo;
+                listaAeronaves[indexAeronave].Estado = "Vuelo Asignado";
+            }
+            else
+            {
+                MessageBox.Show("No se encontro la aeronave");
+            }
+
 
             nuevoVuelo.PesoCabotajeTotal = 0;
 
 
+            if (nuevoVuelo.Partida != "" && nuevoVuelo.Destino != "" && indexAeronave != -1)
+            {
+                listaVuelos.Add(nuevoVuelo);
 
-            listaVuelos.Add(nuevoVuelo);
+                SerializacionXml.SerializarObjetoXml<List<Vuelo>>(rutaArchivoVuelos, listaVuelos);
+                SerializacionJson.SerializarAJson<List<Aeronave>>(rutaArchivoAeronaves, listaAeronaves);
 
-            SerializacionXml.SerializarObjetoXml<List<Vuelo>>(rutaArchivoVuelos, listaVuelos);
-            SerializacionJson.SerializarAJson<List<Aeronave>>(rutaArchivoAeronaves, listaAeronaves);
+                MessageBox.Show("Agregado Exitosamente!");
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Debe completar todos los campos");
+            }
 
-
-            Close();
         }
 
 

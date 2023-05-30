@@ -139,6 +139,23 @@ namespace ParcialLabo1.Clases
             set {  cabotajeInternacional = value; }
         }
 
+        public static bool operator ==(Vuelo p1, Vuelo p2)
+        {
+
+            if (!(p1 is null || p2 is null))
+            {
+                return p1.CodigoDeVuelo == p2.CodigoDeVuelo;
+            }
+            return false;
+
+        }
+
+        public static bool operator !=(Vuelo p1, Vuelo p2)
+        {
+            return !(p1 == p2);
+        }
+
+
         public static string GenerarCodigoVuelo()
         {
             Random random = new Random();

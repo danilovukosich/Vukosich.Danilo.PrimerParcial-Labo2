@@ -5,11 +5,11 @@
     <Partida>BuenosAires</Partida>
     <Destino>Roma</Destino>
     <FechaVuelo>2023-05-30T00:00:00</FechaVuelo>
-    <CatidadAsientosPremium>99</CatidadAsientosPremium>
-    <CantidadAsientosTurista>300</CantidadAsientosTurista>
+    <CatidadAsientosPremium>98</CatidadAsientosPremium>
+    <CantidadAsientosTurista>299</CantidadAsientosTurista>
     <PrecioPremium>1485</PrecioPremium>
     <PrecioTurista>1100</PrecioTurista>
-    <DuracionVuelo>11</DuracionVuelo>
+    <DuracionVuelo>13</DuracionVuelo>
     <ListaPasajeros>
       <Pasajero>
         <Apellido>Bombon</Apellido>
@@ -23,10 +23,34 @@
         <PesoEquipaje>42</PesoEquipaje>
         <NumeroDeVuelos>1</NumeroDeVuelos>
       </Pasajero>
+      <Pasajero>
+        <Apellido>Vukosic</Apellido>
+        <Nombre>Danilo</Nombre>
+        <Dni>43034978</Dni>
+        <Edad>21</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Premium</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>28</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
+      <Pasajero>
+        <Apellido>Silvera</Apellido>
+        <Nombre>Nicolas</Nombre>
+        <Dni>40083951</Dni>
+        <Edad>33</Edad>
+        <EqupajeMano>No</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Turista</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>17</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
     </ListaPasajeros>
-    <PesoCabotajeTotal>42</PesoCabotajeTotal>
+    <PesoCabotajeTotal>87</PesoCabotajeTotal>
     <HorarioSalida>2023-05-29T18:00:00</HorarioSalida>
-    <GananciaTotal>1485</GananciaTotal>
+    <GananciaTotal>4070</GananciaTotal>
     <CabotajeInternacional>Internacional</CabotajeInternacional>
   </Vuelo>
   <Vuelo>
@@ -35,14 +59,27 @@
     <Destino>SantaRosa</Destino>
     <FechaVuelo>2023-06-26T00:00:00</FechaVuelo>
     <CatidadAsientosPremium>70</CatidadAsientosPremium>
-    <CantidadAsientosTurista>220</CantidadAsientosTurista>
+    <CantidadAsientosTurista>219</CantidadAsientosTurista>
     <PrecioPremium>135</PrecioPremium>
     <PrecioTurista>100</PrecioTurista>
-    <DuracionVuelo>2</DuracionVuelo>
-    <ListaPasajeros />
-    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <DuracionVuelo>3</DuracionVuelo>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>Kamado</Apellido>
+        <Nombre>Mario</Nombre>
+        <Dni>41534284</Dni>
+        <Edad>22</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Turista</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>21</PesoEquipaje>
+        <NumeroDeVuelos>2</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>21</PesoCabotajeTotal>
     <HorarioSalida>2023-05-29T13:22:00</HorarioSalida>
-    <GananciaTotal>0</GananciaTotal>
+    <GananciaTotal>100</GananciaTotal>
     <CabotajeInternacional>Nacional</CabotajeInternacional>
   </Vuelo>
   <Vuelo>
@@ -50,14 +87,118 @@
     <Partida>BuenosAires</Partida>
     <Destino>Recife</Destino>
     <FechaVuelo>2023-06-15T00:00:00</FechaVuelo>
-    <CatidadAsientosPremium>120</CatidadAsientosPremium>
+    <CatidadAsientosPremium>119</CatidadAsientosPremium>
     <CantidadAsientosTurista>230</CantidadAsientosTurista>
     <PrecioPremium>1485</PrecioPremium>
     <PrecioTurista>1100</PrecioTurista>
-    <DuracionVuelo>11</DuracionVuelo>
-    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <DuracionVuelo>10</DuracionVuelo>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>Kamado</Apellido>
+        <Nombre>Mario</Nombre>
+        <Dni>41534284</Dni>
+        <Edad>22</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Premium</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>23</PesoEquipaje>
+        <NumeroDeVuelos>4</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>23</PesoCabotajeTotal>
     <HorarioSalida>2023-05-29T21:00:00</HorarioSalida>
+    <GananciaTotal>1485</GananciaTotal>
+    <CabotajeInternacional>Internacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>818792</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Bariloche</Destino>
+    <FechaVuelo>2023-06-09T00:00:00</FechaVuelo>
+    <CatidadAsientosPremium>35</CatidadAsientosPremium>
+    <CantidadAsientosTurista>110</CantidadAsientosTurista>
+    <PrecioPremium>135</PrecioPremium>
+    <PrecioTurista>100</PrecioTurista>
+    <DuracionVuelo>4</DuracionVuelo>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>Auditore</Apellido>
+        <Nombre>Elias</Nombre>
+        <Dni>43875305</Dni>
+        <Edad>23</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Premium</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>42</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>42</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-30T04:30:00</HorarioSalida>
+    <GananciaTotal>135</GananciaTotal>
+    <CabotajeInternacional>Nacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>856594</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Ushuaia</Destino>
+    <FechaVuelo>2023-06-21T00:00:00</FechaVuelo>
+    <CatidadAsientosPremium>40</CatidadAsientosPremium>
+    <CantidadAsientosTurista>159</CantidadAsientosTurista>
+    <PrecioPremium>135</PrecioPremium>
+    <PrecioTurista>100</PrecioTurista>
+    <DuracionVuelo>2</DuracionVuelo>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>DeRivia</Apellido>
+        <Nombre>Geralt</Nombre>
+        <Dni>37459621</Dni>
+        <Edad>50</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Turista</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>21</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>21</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-30T22:00:00</HorarioSalida>
+    <GananciaTotal>100</GananciaTotal>
+    <CabotajeInternacional>Nacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>422513</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Acapulco</Destino>
+    <FechaVuelo>2023-06-17T13:33:59</FechaVuelo>
+    <CatidadAsientosPremium>100</CatidadAsientosPremium>
+    <CantidadAsientosTurista>300</CantidadAsientosTurista>
+    <PrecioPremium>1080</PrecioPremium>
+    <PrecioTurista>800</PrecioTurista>
+    <DuracionVuelo>8</DuracionVuelo>
+    <ListaPasajeros />
+    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-30T13:00:00</HorarioSalida>
     <GananciaTotal>0</GananciaTotal>
     <CabotajeInternacional>Internacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>952366</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Cordoba</Destino>
+    <FechaVuelo>2023-06-22T13:46:34</FechaVuelo>
+    <CatidadAsientosPremium>182</CatidadAsientosPremium>
+    <CantidadAsientosTurista>338</CantidadAsientosTurista>
+    <PrecioPremium>202.5</PrecioPremium>
+    <PrecioTurista>150</PrecioTurista>
+    <DuracionVuelo>3</DuracionVuelo>
+    <ListaPasajeros />
+    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-30T17:40:00</HorarioSalida>
+    <GananciaTotal>0</GananciaTotal>
+    <CabotajeInternacional>Nacional</CabotajeInternacional>
   </Vuelo>
 </ArrayOfVuelo>

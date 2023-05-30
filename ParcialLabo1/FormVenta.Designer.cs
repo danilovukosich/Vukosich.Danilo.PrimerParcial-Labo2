@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBoxCodigoVuelos = new ComboBox();
             label2 = new Label();
             panel1 = new Panel();
+            textBoxCodigoVuelo = new TextBox();
+            textBoxDniPasajero = new TextBox();
             label5 = new Label();
             numericUpDownPesoequipaje = new NumericUpDown();
             label4 = new Label();
@@ -56,7 +57,6 @@
             radioButtonClaseTurista = new RadioButton();
             radioButtonClasePremium = new RadioButton();
             label1 = new Label();
-            comboBoxDniPasajeros = new ComboBox();
             buttonAgregarVuelo = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDownPesoequipaje).BeginInit();
@@ -64,14 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)dataGridViewListaVuelos).BeginInit();
             groupBoxClases.SuspendLayout();
             SuspendLayout();
-            // 
-            // comboBoxCodigoVuelos
-            // 
-            comboBoxCodigoVuelos.FormattingEnabled = true;
-            comboBoxCodigoVuelos.Location = new Point(59, 50);
-            comboBoxCodigoVuelos.Name = "comboBoxCodigoVuelos";
-            comboBoxCodigoVuelos.Size = new Size(151, 28);
-            comboBoxCodigoVuelos.TabIndex = 0;
             // 
             // label2
             // 
@@ -85,6 +77,8 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(textBoxCodigoVuelo);
+            panel1.Controls.Add(textBoxDniPasajero);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(numericUpDownPesoequipaje);
             panel1.Controls.Add(label4);
@@ -95,13 +89,26 @@
             panel1.Controls.Add(checkBoxEquipajeMano);
             panel1.Controls.Add(groupBoxClases);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(comboBoxDniPasajeros);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(comboBoxCodigoVuelos);
             panel1.Location = new Point(24, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(1001, 462);
             panel1.TabIndex = 6;
+            // 
+            // textBoxCodigoVuelo
+            // 
+            textBoxCodigoVuelo.Location = new Point(59, 50);
+            textBoxCodigoVuelo.Name = "textBoxCodigoVuelo";
+            textBoxCodigoVuelo.Size = new Size(151, 27);
+            textBoxCodigoVuelo.TabIndex = 35;
+            // 
+            // textBoxDniPasajero
+            // 
+            textBoxDniPasajero.Location = new Point(250, 51);
+            textBoxDniPasajero.Name = "textBoxDniPasajero";
+            textBoxDniPasajero.Size = new Size(151, 27);
+            textBoxDniPasajero.TabIndex = 34;
+            textBoxDniPasajero.KeyPress += textBoxDniPasajero_KeyPress;
             // 
             // label5
             // 
@@ -338,14 +345,6 @@
             label1.TabIndex = 7;
             label1.Text = "DNI Pasajero";
             // 
-            // comboBoxDniPasajeros
-            // 
-            comboBoxDniPasajeros.FormattingEnabled = true;
-            comboBoxDniPasajeros.Location = new Point(250, 50);
-            comboBoxDniPasajeros.Name = "comboBoxDniPasajeros";
-            comboBoxDniPasajeros.Size = new Size(151, 28);
-            comboBoxDniPasajeros.TabIndex = 6;
-            // 
             // buttonAgregarVuelo
             // 
             buttonAgregarVuelo.BackColor = SystemColors.Highlight;
@@ -383,12 +382,9 @@
         }
 
         #endregion
-
-        private ComboBox comboBoxCodigoVuelos;
         private Label label2;
         private Panel panel1;
         private Label label1;
-        private ComboBox comboBoxDniPasajeros;
         private Button buttonAgregarVuelo;
         private CheckBox checkBoxEquipajeBodega;
         private CheckBox checkBoxEquipajeMano;
@@ -414,5 +410,8 @@
         private DataGridViewTextBoxColumn dniPasajero;
         private DataGridViewTextBoxColumn nombrePasajero;
         private DataGridViewTextBoxColumn apellidoPasajero;
+        private TextBox textBoxDniPasajero;
+        private ComboBox comboBoxCodigoVuelos;
+        private TextBox textBoxCodigoVuelo;
     }
 }
