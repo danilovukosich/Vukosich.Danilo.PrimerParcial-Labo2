@@ -18,12 +18,16 @@ Esta pensada unicamente para personal de la empresa. Cuenta con 3 perfiles (Admi
 FUNCIONES DE CADA PERFIL:
 
 -Administrador: ABM de Aeronaves y ABM de Vuelos(Viajes).
+
 -Supervisor: ABM Pasajeros y vista de Estadisticas generales.
+
 -Vendedor: ABM Pasajeros , vista de Estadisticas generales, vista de Viajes realizados y Venta de vuelos.
 
 ## Propuesta de Valor Agregado
 -Pestaña de bienvenida para cada usuario al iniciar sesion.
+
 -Utilizacion de formulariosHijo dentro de formulariosPadre.
+
 -Botones principales responsivos.
 
 
