@@ -35,23 +35,23 @@
     "PoseeInternet": "No",
     "OfreceComida": "Si",
     "CapacidadBodega": 2800,
-    "HorasDeVuelo": 3,
+    "HorasDeVuelo": 20,
     "VueloAsignado": {
-      "CodigoDeVuelo": "017191",
+      "CodigoDeVuelo": "106161",
       "Partida": "BuenosAires",
-      "Destino": "SantaRosa",
-      "FechaVuelo": "2023-06-26T00:00:00",
+      "Destino": "Recife",
+      "FechaVuelo": "2023-06-26T23:00:13",
       "Aeronave": null,
       "CatidadAsientosPremium": 70,
       "CantidadAsientosTurista": 220,
-      "PrecioPremium": 135,
-      "PrecioTurista": 100,
-      "DuracionVuelo": 2,
+      "PrecioPremium": 1080,
+      "PrecioTurista": 800,
+      "DuracionVuelo": 8,
       "ListaPasajeros": null,
       "PesoCabotajeTotal": 0,
-      "HorarioSalida": "2023-05-29T13:22:00",
+      "HorarioSalida": "2023-05-30T23:00:13.3257253-03:00",
       "GananciaTotal": 0,
-      "CabotajeInternacional": null
+      "CabotajeInternacional": "Internacional"
     },
     "Estado": "Vuelo Asignado"
   },
@@ -306,5 +306,33 @@
       "CabotajeInternacional": null
     },
     "Estado": "Sin Vuelo"
+  },
+  {
+    "Matricula": "QZ722398",
+    "CantidadAsientosPremium": 65,
+    "CantidadAsientosTurista": 190,
+    "CantidadBanos": 2,
+    "PoseeInternet": "Si",
+    "OfreceComida": "Si",
+    "CapacidadBodega": 2500,
+    "HorasDeVuelo": 9,
+    "VueloAsignado": {
+      "CodigoDeVuelo": "109239",
+      "Partida": "BuenosAires",
+      "Destino": "Acapulco",
+      "FechaVuelo": "2023-06-17T23:20:08",
+      "Aeronave": null,
+      "CatidadAsientosPremium": 65,
+      "CantidadAsientosTurista": 190,
+      "PrecioPremium": 1350,
+      "PrecioTurista": 1000,
+      "DuracionVuelo": 10,
+      "ListaPasajeros": null,
+      "PesoCabotajeTotal": 0,
+      "HorarioSalida": "2023-05-30T23:00:00",
+      "GananciaTotal": 0,
+      "CabotajeInternacional": "Internacional"
+    },
+    "Estado": "Vuelo Asignado"
   }
 ]

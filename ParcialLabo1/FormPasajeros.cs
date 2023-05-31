@@ -78,6 +78,7 @@ namespace ParcialLabo1
                 if (resultado == DialogResult.Yes && pasajeroEliminar.Estado.ToLower() != "vuelo asignado")
                 {
                     SerializacionXml.SerializarObjetoXml<List<Pasajero>>(rutaArchivoPasajeros, listaPasajeros);
+                    MessageBox.Show("Eliminado Exitosamente!");
                 }
                 else
                 {

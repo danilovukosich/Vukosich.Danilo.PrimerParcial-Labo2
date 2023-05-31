@@ -261,6 +261,7 @@
             dateTimePickerFechaVuelo.Size = new Size(156, 27);
             dateTimePickerFechaVuelo.TabIndex = 18;
             dateTimePickerFechaVuelo.Value = new DateTime(2023, 5, 26, 0, 0, 0, 0);
+            dateTimePickerFechaVuelo.ValueChanged += dateTimePickerFechaVuelo_ValueChanged;
             // 
             // comboBoxDestinos
             // 

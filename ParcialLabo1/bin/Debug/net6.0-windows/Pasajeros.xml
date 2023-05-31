@@ -5,24 +5,24 @@
     <Nombre>Danilo</Nombre>
     <Dni>43034978</Dni>
     <Edad>21</Edad>
-    <EqupajeMano>Si</EqupajeMano>
-    <EquipajeBodega>Si</EquipajeBodega>
+    <EqupajeMano>No</EqupajeMano>
+    <EquipajeBodega>No</EquipajeBodega>
     <Clase>Premium</Clase>
     <Estado>Vuelo Asignado</Estado>
     <PesoEquipaje>28</PesoEquipaje>
-    <NumeroDeVuelos>2</NumeroDeVuelos>
+    <NumeroDeVuelos>3</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Auditore</Apellido>
     <Nombre>Elias</Nombre>
     <Dni>43875305</Dni>
     <Edad>23</Edad>
-    <EqupajeMano>Si</EqupajeMano>
-    <EquipajeBodega>Si</EquipajeBodega>
+    <EqupajeMano>No</EqupajeMano>
+    <EquipajeBodega>No</EquipajeBodega>
     <Clase>Premium</Clase>
     <Estado>Vuelo Asignado</Estado>
     <PesoEquipaje>42</PesoEquipaje>
-    <NumeroDeVuelos>2</NumeroDeVuelos>
+    <NumeroDeVuelos>3</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Silvera</Apellido>
@@ -77,12 +77,12 @@
     <Nombre>Maximo</Nombre>
     <Dni>34052184</Dni>
     <Edad>70</Edad>
-    <EqupajeMano>Sin equipaje</EqupajeMano>
-    <EquipajeBodega>Sin equipaje</EquipajeBodega>
-    <Clase>Sin clase</Clase>
-    <Estado>Sin estado</Estado>
-    <PesoEquipaje>0</PesoEquipaje>
-    <NumeroDeVuelos>0</NumeroDeVuelos>
+    <EqupajeMano>Si</EqupajeMano>
+    <EquipajeBodega>Si</EquipajeBodega>
+    <Clase>Turista</Clase>
+    <Estado>Vuelo Asignado</Estado>
+    <PesoEquipaje>17</PesoEquipaje>
+    <NumeroDeVuelos>1</NumeroDeVuelos>
   </Pasajero>
   <Pasajero>
     <Apellido>Wick</Apellido>

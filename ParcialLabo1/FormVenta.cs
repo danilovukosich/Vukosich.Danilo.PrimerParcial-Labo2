@@ -167,18 +167,18 @@ namespace ParcialLabo1
 
                 bool bandera = false;
 
-                foreach(Pasajero pasajero in listaVuelos[indexVuelo].ListaPasajeros)
-                {
-                    if(pasajero.Dni == textBoxDniPasajero.Text)
-                    {
-                        bandera = true;
-                    }
-                }
-
-
                 if (indexVuelo != -1 )
                 {
-                    if(bandera== false)
+                    foreach (Pasajero pasajero in listaVuelos[indexVuelo].ListaPasajeros)
+                    {
+                        if (pasajero.Dni == textBoxDniPasajero.Text)
+                        {
+                            bandera = true;
+
+                        }
+                    }
+
+                    if (bandera== false)
                     {
                         listaVuelos[indexVuelo].PesoCabotajeTotal += (float)numericUpDownPesoequipaje.Value;
 

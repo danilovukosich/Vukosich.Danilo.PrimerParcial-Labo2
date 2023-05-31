@@ -76,6 +76,18 @@
         <PesoEquipaje>21</PesoEquipaje>
         <NumeroDeVuelos>2</NumeroDeVuelos>
       </Pasajero>
+      <Pasajero>
+        <Apellido>Auditore</Apellido>
+        <Nombre>Elias</Nombre>
+        <Dni>43875305</Dni>
+        <Edad>23</Edad>
+        <EqupajeMano>No</EqupajeMano>
+        <EquipajeBodega>No</EquipajeBodega>
+        <Clase>Premium</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>42</PesoEquipaje>
+        <NumeroDeVuelos>3</NumeroDeVuelos>
+      </Pasajero>
     </ListaPasajeros>
     <PesoCabotajeTotal>21</PesoCabotajeTotal>
     <HorarioSalida>2023-05-29T13:22:00</HorarioSalida>
@@ -175,14 +187,27 @@
     <Destino>Acapulco</Destino>
     <FechaVuelo>2023-06-17T13:33:59</FechaVuelo>
     <CatidadAsientosPremium>100</CatidadAsientosPremium>
-    <CantidadAsientosTurista>300</CantidadAsientosTurista>
+    <CantidadAsientosTurista>299</CantidadAsientosTurista>
     <PrecioPremium>1080</PrecioPremium>
     <PrecioTurista>800</PrecioTurista>
     <DuracionVuelo>8</DuracionVuelo>
-    <ListaPasajeros />
-    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <ListaPasajeros>
+      <Pasajero>
+        <Apellido>DecimoMeridio</Apellido>
+        <Nombre>Maximo</Nombre>
+        <Dni>34052184</Dni>
+        <Edad>70</Edad>
+        <EqupajeMano>Si</EqupajeMano>
+        <EquipajeBodega>Si</EquipajeBodega>
+        <Clase>Turista</Clase>
+        <Estado>Vuelo Asignado</Estado>
+        <PesoEquipaje>17</PesoEquipaje>
+        <NumeroDeVuelos>1</NumeroDeVuelos>
+      </Pasajero>
+    </ListaPasajeros>
+    <PesoCabotajeTotal>17</PesoCabotajeTotal>
     <HorarioSalida>2023-05-30T13:00:00</HorarioSalida>
-    <GananciaTotal>0</GananciaTotal>
+    <GananciaTotal>800</GananciaTotal>
     <CabotajeInternacional>Internacional</CabotajeInternacional>
   </Vuelo>
   <Vuelo>
@@ -200,5 +225,21 @@
     <HorarioSalida>2023-05-30T17:40:00</HorarioSalida>
     <GananciaTotal>0</GananciaTotal>
     <CabotajeInternacional>Nacional</CabotajeInternacional>
+  </Vuelo>
+  <Vuelo>
+    <CodigoDeVuelo>109239</CodigoDeVuelo>
+    <Partida>BuenosAires</Partida>
+    <Destino>Acapulco</Destino>
+    <FechaVuelo>2023-06-17T23:20:08</FechaVuelo>
+    <CatidadAsientosPremium>65</CatidadAsientosPremium>
+    <CantidadAsientosTurista>190</CantidadAsientosTurista>
+    <PrecioPremium>1350</PrecioPremium>
+    <PrecioTurista>1000</PrecioTurista>
+    <DuracionVuelo>9</DuracionVuelo>
+    <ListaPasajeros />
+    <PesoCabotajeTotal>0</PesoCabotajeTotal>
+    <HorarioSalida>2023-05-30T23:00:00</HorarioSalida>
+    <GananciaTotal>0</GananciaTotal>
+    <CabotajeInternacional>Internacional</CabotajeInternacional>
   </Vuelo>
 </ArrayOfVuelo>
