@@ -155,7 +155,10 @@ namespace ParcialLabo1.Clases
             return !(p1 == p2);
         }
 
-
+        /// <summary>
+        /// Genera un codigo de vuelo Aleatorio de 6 digitos
+        /// </summary>
+        /// <returns> El codigo en string </returns>
         public static string GenerarCodigoVuelo()
         {
             Random random = new Random();
@@ -177,6 +180,11 @@ namespace ParcialLabo1.Clases
         //● Clase Premium: Podrá llevar un bolso de mano y despachar hasta dos valijas de
         //hasta 21 kg cada una.Esta clase cuesta un 35% más de lo que costaría el mismo
         //pasaje para turista.
+
+        /// <summary>
+        /// Calcula el duracion aleatoria del vuelo nacional
+        /// </summary>
+        /// <returns> Precio calculado </returns>
         public static int CalcularDuracionVueloNacional()
         {
             //diccionarion con el tiempo de vuelo por cada destino desde buenosaires
@@ -188,6 +196,10 @@ namespace ParcialLabo1.Clases
             return duracionVuelo;
         }
 
+        /// <summary>
+        /// Calcula el duracion aleatoria del vuelo internacional
+        /// </summary>
+        /// <returns></returns>
         public static int CalcularDuracionVueloInteracional()
         {
             
@@ -200,7 +212,13 @@ namespace ParcialLabo1.Clases
             return duracionVuelo;
         }
 
-
+        /// <summary>
+        /// Calcula el precio del vuelo dependiendo de la clase seleccionada para
+        /// vuelos intenacionales
+        /// </summary>
+        /// <param name="clase"></param>
+        /// <param name="horasVuelo"></param>
+        /// <returns>Costo Calculado</returns>
         public static float CalcularPrecioInternacional(string clase, float horasVuelo)
         {
             float precio = horasVuelo * 100;
@@ -213,6 +231,13 @@ namespace ParcialLabo1.Clases
             return precio;
         }
 
+        /// <summary>
+        /// Calcula el precio del vuelo dependiendo de la clase seleccionada para
+        /// vuelos Nacionales
+        /// </summary>
+        /// <param name="clase"></param>
+        /// <param name="horasVuelo"></param>
+        /// <returns>Costo Calculado</returns>
         public static float CalcularPrecioNacional(string clase, float horasVuelo)
         {
             float precio = horasVuelo * 50;
@@ -224,7 +249,13 @@ namespace ParcialLabo1.Clases
 
             return precio;
         }
-
+        /// <summary>
+        /// Busca el vuelo por codigo de vuelo en una lista de vuelos ingresado por 
+        /// parametro, comparando el codigo ingresado con los de la lista
+        /// </summary>
+        /// <param name="lsitaVuelos"></param>
+        /// <param name="codigo"></param>
+        /// <returns>Vuelo encontrado</returns>
         public static Vuelo BuscarVueloPorCodigo(List<Vuelo> lsitaVuelos, string codigo)
         {
             Vuelo vueloAux = new Vuelo();
