@@ -100,8 +100,13 @@ namespace ParcialLabo1
         //BOTON HOME
         public void iconButtonHome_Click(object sender, EventArgs e)
         {
-            BotonActivo(sender);
-            formHijoActual.Close();
+            //BotonActivo(sender);
+            if (formHijoActual != null)
+            {
+                BotonActivo(sender);
+                formHijoActual.Close();
+            }
+            //formHijoActual.Close();
         }
 
         //Cerrar sesion

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            textBoxMatriculaPasajero = new TextBox();
             dataGridViewAeronaves = new DataGridView();
             matriculaAeronave = new DataGridViewTextBoxColumn();
             internet = new DataGridViewTextBoxColumn();
@@ -39,7 +40,6 @@
             label7 = new Label();
             dateTimePickerHorarioSalida = new DateTimePicker();
             label6 = new Label();
-            comboBoxAeronaveDelVuelo = new ComboBox();
             label5 = new Label();
             groupBoxDestino = new GroupBox();
             radioButtonViajeInternacional = new RadioButton();
@@ -61,11 +61,11 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonFace;
+            panel1.Controls.Add(textBoxMatriculaPasajero);
             panel1.Controls.Add(dataGridViewAeronaves);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(dateTimePickerHorarioSalida);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(comboBoxAeronaveDelVuelo);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(groupBoxDestino);
             panel1.Controls.Add(comboBoxVueloPartida);
@@ -79,6 +79,13 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1169, 338);
             panel1.TabIndex = 11;
+            // 
+            // textBoxMatriculaPasajero
+            // 
+            textBoxMatriculaPasajero.Location = new Point(181, 76);
+            textBoxMatriculaPasajero.Name = "textBoxMatriculaPasajero";
+            textBoxMatriculaPasajero.Size = new Size(151, 27);
+            textBoxMatriculaPasajero.TabIndex = 31;
             // 
             // dataGridViewAeronaves
             // 
@@ -167,14 +174,6 @@
             label6.TabIndex = 27;
             label6.Text = "Horario Salida";
             // 
-            // comboBoxAeronaveDelVuelo
-            // 
-            comboBoxAeronaveDelVuelo.FormattingEnabled = true;
-            comboBoxAeronaveDelVuelo.Location = new Point(181, 76);
-            comboBoxAeronaveDelVuelo.Name = "comboBoxAeronaveDelVuelo";
-            comboBoxAeronaveDelVuelo.Size = new Size(151, 28);
-            comboBoxAeronaveDelVuelo.TabIndex = 26;
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -262,6 +261,7 @@
             dateTimePickerFechaVuelo.Size = new Size(156, 27);
             dateTimePickerFechaVuelo.TabIndex = 18;
             dateTimePickerFechaVuelo.Value = new DateTime(2023, 5, 26, 0, 0, 0, 0);
+            dateTimePickerFechaVuelo.ValueChanged += dateTimePickerFechaVuelo_ValueChanged;
             // 
             // comboBoxDestinos
             // 
@@ -359,7 +359,6 @@
         private GroupBox groupBoxDestino;
         private RadioButton radioButtonViajeInternacional;
         private RadioButton radioButtonViajeNacional;
-        private ComboBox comboBoxAeronaveDelVuelo;
         private Label label5;
         private Label label6;
         private DateTimePicker dateTimePickerHorarioSalida;
@@ -371,5 +370,6 @@
         private DataGridViewTextBoxColumn asientosPrem;
         private DataGridViewTextBoxColumn asientosTurista;
         private Label label7;
+        private TextBox textBoxMatriculaPasajero;
     }
 }

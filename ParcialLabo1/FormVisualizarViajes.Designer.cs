@@ -29,13 +29,6 @@
         private void InitializeComponent()
         {
             dataGridViewListaVuelos = new DataGridView();
-            codigoVuelo = new DataGridViewTextBoxColumn();
-            fechaPartida = new DataGridViewTextBoxColumn();
-            horarioPartida = new DataGridViewTextBoxColumn();
-            partida = new DataGridViewTextBoxColumn();
-            destino = new DataGridViewTextBoxColumn();
-            ganaciaTotal = new DataGridViewTextBoxColumn();
-            pesoBodega = new DataGridViewTextBoxColumn();
             label2 = new Label();
             comboBoxCodigoVuelo = new ComboBox();
             dataGridViewPasajerosVuelo = new DataGridView();
@@ -44,6 +37,13 @@
             apellidoPasajero = new DataGridViewTextBoxColumn();
             label3 = new Label();
             label1 = new Label();
+            codigoVuelo = new DataGridViewTextBoxColumn();
+            fechaPartida = new DataGridViewTextBoxColumn();
+            horarioPartida = new DataGridViewTextBoxColumn();
+            partida = new DataGridViewTextBoxColumn();
+            destino = new DataGridViewTextBoxColumn();
+            ganaciaTotal = new DataGridViewTextBoxColumn();
+            pesoBodega = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridViewListaVuelos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewPasajerosVuelo).BeginInit();
             SuspendLayout();
@@ -59,62 +59,6 @@
             dataGridViewListaVuelos.RowTemplate.Height = 29;
             dataGridViewListaVuelos.Size = new Size(679, 478);
             dataGridViewListaVuelos.TabIndex = 29;
-            // 
-            // codigoVuelo
-            // 
-            codigoVuelo.HeaderText = "Codigo";
-            codigoVuelo.MinimumWidth = 6;
-            codigoVuelo.Name = "codigoVuelo";
-            codigoVuelo.ReadOnly = true;
-            codigoVuelo.Width = 125;
-            // 
-            // fechaPartida
-            // 
-            fechaPartida.HeaderText = "Fecha Partida";
-            fechaPartida.MinimumWidth = 6;
-            fechaPartida.Name = "fechaPartida";
-            fechaPartida.ReadOnly = true;
-            fechaPartida.Width = 125;
-            // 
-            // horarioPartida
-            // 
-            horarioPartida.HeaderText = "Horario Partida";
-            horarioPartida.MinimumWidth = 6;
-            horarioPartida.Name = "horarioPartida";
-            horarioPartida.ReadOnly = true;
-            horarioPartida.Width = 125;
-            // 
-            // partida
-            // 
-            partida.HeaderText = "Partida";
-            partida.MinimumWidth = 6;
-            partida.Name = "partida";
-            partida.ReadOnly = true;
-            partida.Width = 125;
-            // 
-            // destino
-            // 
-            destino.HeaderText = "Destino";
-            destino.MinimumWidth = 6;
-            destino.Name = "destino";
-            destino.ReadOnly = true;
-            destino.Width = 125;
-            // 
-            // ganaciaTotal
-            // 
-            ganaciaTotal.HeaderText = "Ganancia";
-            ganaciaTotal.MinimumWidth = 6;
-            ganaciaTotal.Name = "ganaciaTotal";
-            ganaciaTotal.ReadOnly = true;
-            ganaciaTotal.Width = 125;
-            // 
-            // pesoBodega
-            // 
-            pesoBodega.HeaderText = "Pedo Bodega";
-            pesoBodega.MinimumWidth = 6;
-            pesoBodega.Name = "pesoBodega";
-            pesoBodega.ReadOnly = true;
-            pesoBodega.Width = 125;
             // 
             // label2
             // 
@@ -190,6 +134,62 @@
             label1.Size = new Size(139, 23);
             label1.TabIndex = 34;
             label1.Text = "Lista pasajeros";
+            // 
+            // codigoVuelo
+            // 
+            codigoVuelo.HeaderText = "Codigo";
+            codigoVuelo.MinimumWidth = 6;
+            codigoVuelo.Name = "codigoVuelo";
+            codigoVuelo.ReadOnly = true;
+            codigoVuelo.Width = 125;
+            // 
+            // fechaPartida
+            // 
+            fechaPartida.HeaderText = "Fecha Partida";
+            fechaPartida.MinimumWidth = 6;
+            fechaPartida.Name = "fechaPartida";
+            fechaPartida.ReadOnly = true;
+            fechaPartida.Width = 125;
+            // 
+            // horarioPartida
+            // 
+            horarioPartida.HeaderText = "Horario Partida";
+            horarioPartida.MinimumWidth = 6;
+            horarioPartida.Name = "horarioPartida";
+            horarioPartida.ReadOnly = true;
+            horarioPartida.Width = 125;
+            // 
+            // partida
+            // 
+            partida.HeaderText = "Partida";
+            partida.MinimumWidth = 6;
+            partida.Name = "partida";
+            partida.ReadOnly = true;
+            partida.Width = 125;
+            // 
+            // destino
+            // 
+            destino.HeaderText = "Destino";
+            destino.MinimumWidth = 6;
+            destino.Name = "destino";
+            destino.ReadOnly = true;
+            destino.Width = 125;
+            // 
+            // ganaciaTotal
+            // 
+            ganaciaTotal.HeaderText = "Ganancia";
+            ganaciaTotal.MinimumWidth = 6;
+            ganaciaTotal.Name = "ganaciaTotal";
+            ganaciaTotal.ReadOnly = true;
+            ganaciaTotal.Width = 125;
+            // 
+            // pesoBodega
+            // 
+            pesoBodega.HeaderText = "Peso Bodega";
+            pesoBodega.MinimumWidth = 6;
+            pesoBodega.Name = "pesoBodega";
+            pesoBodega.ReadOnly = true;
+            pesoBodega.Width = 125;
             // 
             // FormVisualizarViajes
             // 

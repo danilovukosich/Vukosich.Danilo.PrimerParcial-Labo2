@@ -78,10 +78,11 @@ namespace ParcialLabo1
                 if (resultado == DialogResult.Yes && pasajeroEliminar.Estado.ToLower() != "vuelo asignado")
                 {
                     SerializacionXml.SerializarObjetoXml<List<Pasajero>>(rutaArchivoPasajeros, listaPasajeros);
+                    MessageBox.Show("Eliminado Exitosamente!");
                 }
                 else
                 {
-                    MessageBox.Show("El pasajero seleccionado tiene un vuelo asignado!\nNo se puede eliminar.");
+                    MessageBox.Show("El pasajero seleccionado tiene un vuelo asignado!\nNo se pudo eliminar.");
                 }
             }
             else
@@ -105,7 +106,7 @@ namespace ParcialLabo1
                     FormModificarPasajero formModificar = new FormModificarPasajero(pasajeroAux);
                     formModificar.ShowDialog();
                 }
-                else { MessageBox.Show("El pasajero seleccionado tiene un vuelo asignado!\nNo se puede eliminar."); }
+                else { MessageBox.Show("El pasajero seleccionado tiene un vuelo asignado!\nNo se puede Modificar."); }
                 
             }
             else

@@ -50,7 +50,7 @@
             // 
             labelBienvenidoNOmbre.AutoSize = true;
             labelBienvenidoNOmbre.Font = new Font("Microsoft JhengHei UI", 28.2F, FontStyle.Regular, GraphicsUnit.Point);
-            labelBienvenidoNOmbre.Location = new Point(752, 478);
+            labelBienvenidoNOmbre.Location = new Point(752, 444);
             labelBienvenidoNOmbre.Name = "labelBienvenidoNOmbre";
             labelBienvenidoNOmbre.Size = new Size(300, 60);
             labelBienvenidoNOmbre.TabIndex = 1;

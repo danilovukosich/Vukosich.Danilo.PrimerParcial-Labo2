@@ -46,7 +46,8 @@ namespace ParcialLabo1
 
         private void iconButtonEstadisticas_Click(object sender, EventArgs e)
         {
-            
+            BotonActivo(sender);
+            AbrirFormilariohijo(new FormEstadisticas());
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

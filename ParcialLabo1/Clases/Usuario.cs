@@ -56,6 +56,13 @@ namespace ParcialLabo1.Clases
             set { this.perfil = value; }
         }
 
+        /// <summary>
+        /// Valida que los datos ingresados en el inicio de sesion sean validos
+        /// </summary>
+        /// <param name="listaUsuarios"></param>
+        /// <param name="correo"></param>
+        /// <param name="clave"></param>
+        /// <returns> Usuario si es valido, sino null</returns>
         static public Usuario ValidarCredenciales(List<Usuario> listaUsuarios, string correo, string clave)
         {
 

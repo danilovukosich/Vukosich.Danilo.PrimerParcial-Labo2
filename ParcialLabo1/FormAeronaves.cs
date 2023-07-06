@@ -113,7 +113,7 @@ namespace ParcialLabo1
                     {
                         listaAviones.RemoveAt(index);
                         SerializacionJson.SerializarAJson<List<Aeronave>>(rutaArchivoAeronaves, listaAviones);
-
+                        MessageBox.Show("Eliminado Exitosamente!");
                     }
                 }
                 else { MessageBox.Show("El Avion no se puede eliminar\nporque tiene un vuelo asignado!"); }

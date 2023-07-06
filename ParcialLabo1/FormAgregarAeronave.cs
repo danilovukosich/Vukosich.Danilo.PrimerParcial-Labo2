@@ -74,11 +74,20 @@ namespace ParcialLabo1
             Vuelo vueloVacio = new Vuelo();
             aeronaveNueva.VueloAsignado = vueloVacio;
 
-            listaAviones.Add(aeronaveNueva);
 
-            SerializacionJson.SerializarAJson<List<Aeronave>>(rutaArchivoAeronaves, listaAviones);
+            if(aeronaveNueva.CantidadAsientosPremium!=0 && aeronaveNueva.CantidadAsientosTurista!=0 && aeronaveNueva.CapacidadBodega!=0 && aeronaveNueva.PoseeInternet != "" &&aeronaveNueva.OfreceComida != "")
+            {
+                listaAviones.Add(aeronaveNueva);
 
-            Close();
+                SerializacionJson.SerializarAJson<List<Aeronave>>(rutaArchivoAeronaves, listaAviones);
+                MessageBox.Show("Agregado Exitosamente!");
+                Close();
+            }
+            else 
+            {
+                MessageBox.Show("Debe completar todos los campos");
+            }
+            
 
         }
 

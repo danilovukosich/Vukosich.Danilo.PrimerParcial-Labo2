@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -75,17 +76,25 @@ namespace ParcialLabo1
                 
 
                 DialogResult resultado = MessageBox.Show("Desea Eliminar", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-                if(vueloEliminar.FechaVuelo > DateTime.Now)
+                if(vueloEliminar.FechaVuelo.DayOfYear > DateTime.Now.DayOfYear)
                 {
                     if (resultado == DialogResult.Yes)
                     {
-                        listaVuelos.RemoveAt(index);
-                        SerializacionXml.SerializarObjetoXml(rutaArchivoVuelos, listaVuelos);
+                        if(vueloEliminar.FechaVuelo.DayOfYear != DateTime.Now.DayOfYear)
+                        {
+                            listaVuelos.RemoveAt(index);
+                            //SerializacionXml.SerializarObjetoXml(rutaArchivoVuelos, listaVuelos);
+                            MessageBox.Show("Eliminado Exitosamente!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se puede Eliminar un viaje que esta en curso!");
+                        }
                     }
                 }
                 else
                 {
-                    MessageBox.Show("No se puede modificar un viaje que ya paso!");
+                    MessageBox.Show("No se puede Eliminar un viaje que ya paso!");
                 }
             }
             else
@@ -102,8 +111,29 @@ namespace ParcialLabo1
 
             Vuelo vueloModificar = Vuelo.BuscarVueloPorCodigo(listaVuelos, codigoVueloModificar);
 
-            FormModificarVuelo formModificarVuelo = new FormModificarVuelo(vueloModificar);
-            formModificarVuelo.ShowDialog();
+            if (vueloModificar.FechaVuelo.DayOfYear > DateTime.Now.DayOfYear)
+            {
+                DialogResult resultado = MessageBox.Show("Desea Modificar", "Modificar", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (resultado == DialogResult.Yes)
+                {
+                    if (vueloModificar.FechaVuelo.DayOfYear != DateTime.Now.DayOfYear)
+                    {
+                        FormModificarVuelo formModificarVuelo = new FormModificarVuelo(vueloModificar);
+                        formModificarVuelo.ShowDialog();
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se puede Eliminar un viaje que esta en curso!");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se puede Eliminar un viaje que ya paso!");
+            }
+            //FormModificarVuelo formModificarVuelo = new FormModificarVuelo(vueloModificar);
+            //formModificarVuelo.ShowDialog();
         }
     }
 }

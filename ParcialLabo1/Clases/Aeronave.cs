@@ -98,6 +98,27 @@ namespace ParcialLabo1.Clases
             set { this.estado = value; }
         }
 
+        public static bool operator ==(Aeronave p1, Aeronave p2)
+        {
+
+            if (!(p1 is null || p2 is null))
+            {
+                return p1.Matricula == p2.Matricula;
+            }
+            return false;
+
+        }
+
+        public static bool operator !=(Aeronave p1, Aeronave p2)
+        {
+            return !(p1 == p2);
+        }
+
+
+        /// <summary>
+        /// Genera una matricula aleatoria para el avion iniciando con 2 letras y siguendo con 6 numeros
+        /// </summary>
+        /// <returns> String matricula</returns>
         public static string GenerarMatricula()
         {
             string letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -121,6 +142,13 @@ namespace ParcialLabo1.Clases
             return matricula.ToString();
         }
 
+
+        /// <summary>
+        /// Busca una aeronave en una lista de aeronaves por matricula
+        /// </summary>
+        /// <param name="listaAeronaves"></param>
+        /// <param name="matricula"></param>
+        /// <returns> Aeronave que coincida con la busqueda </returns>
         public static Aeronave BuscarAeronavePorMatricula(List<Aeronave> listaAeronaves, string matricula)
         {
             Aeronave aeronaveAux = new Aeronave();
